@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biertafel-kopen.be | Authentieke Duitse Biertafels</title>
+    <meta name="description" content="Ontdek onze collectie authentieke Duitse biertafels. FSC-gecertificeerd vurenhout, dubbel gelakt voor duurzaamheid. Perfect voor elke gelegenheid.">
+    <style>
+        :root {
+            --primary-color: #8B4513;
+            --secondary-color: #A0522D;
+            --accent-color: #DAA520;
+            --text-color: #2C3E50;
+            --background-light: #FDF5E6;
+            --background-dark: #F5DEB3;
+            --card-bg: #FFFFFF;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Georgia', serif;
+            line-height: 1.8;
+            color: var(--text-color);
+            background-color: var(--background-light);
+        }
+
+        header {
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            color: white;
+            text-align: center;
+            padding: 3rem 1rem;
+            position: relative;
+        }
+
+        .top-cta {
+            position: absolute;
+            top: 1rem;
+            right: 1rem;
+            background-color: var(--accent-color);
+            color: var(--primary-color);
+            padding: 1rem 2rem;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: all 0.3s ease;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .top-cta:hover {
+            transform: translateY(-2px);
+            background-color: #F7CA18;
+        }
+
+        .section {
+            padding: 4rem 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            font-weight: 300;
+        }
+
+        h2 {
+            color: var(--primary-color);
+            font-size: 2.5rem;
+            margin-bottom: 2rem;
+            text-align: center;
+            font-weight: 300;
+        }
+
+        .intro-text {
+            max-width: 800px;
+            margin: 2rem auto;
+            text-align: center;
+            font-size: 1.2rem;
+            line-height: 1.8;
+        }
+
+        .products-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 2rem;
+            margin: 2rem 0;
+        }
+
+        .product-card {
+            background: var(--card-bg);
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .product-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .product-card img {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+        }
+
+        .product-content {
+            padding: 1.5rem;
+        }
+
+        .product-title {
+            font-size: 1.25rem;
+            color: var(--primary-color);
+            margin-bottom: 1rem;
+        }
+
+        .product-description {
+            color: var(--text-color);
+            margin-bottom: 1.5rem;
+            line-height: 1.6;
+        }
+
+        .cta-button {
+            display: inline-block;
+            background-color: var(--primary-color);
+            color: white;
+            padding: 0.8rem 1.5rem;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+        }
+
+        .cta-button:hover {
+            background-color: var(--secondary-color);
+        }
+
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            margin: 3rem 0;
+        }
+
+        .feature-card {
+            background: var(--card-bg);
+            padding: 2rem;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        footer {
+            background-color: var(--primary-color);
+            color: white;
+            text-align: center;
+            padding: 2rem;
+            margin-top: 4rem;
+        }
+
+        .company-info {
+            background: var(--card-bg);
+            padding: 2rem;
+            border-radius: 10px;
+            margin-top: 2rem;
+            text-align: center;
+        }
+
+        @media (max-width: 768px) {
+            .top-cta {
+                position: static;
+                display: inline-block;
+                margin-top: 1rem;
+            }
+
+            h1 {
+                font-size: 2rem;
+            }
+
+            .products-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Biertafel-kopen.be</h1>
+        <p>Authentieke Duitse Biertafels voor Onvergetelijke Momenten</p>
+        <a href="https://www.e-woodproducts.be/collections/biertafels" class="top-cta">Naar de Webshop</a>
+    </header>
+
+    <section class="section">
+        <div class="intro-text">
+            <p>Welkom bij onze rubriek gewijd aan de gezelligheid en veelzijdigheid van biertafels. Hier vind je de perfecte combinatie van Duitse brouwerijkwaliteit en functioneel design. Onze biertafels en bierbanken zijn niet alleen een plek om te ontspannen en te genieten, maar ook een staaltje vakmanschap dat elke bijeenkomst naar een hoger niveau tilt.</p>
+        </div>
+
+        <div class="features">
+            <div class="feature-card">
+                <h3>FSC-Vurenhout</h3>
+                <p>Duurzaam geproduceerd hout van de hoogste kwaliteit</p>
+            </div>
+            <div class="feature-card">
+                <h3>Dubbel Gelakt</h3>
+                <p>Extra bescherming voor jarenlang gebruiksplezier</p>
+            </div>
+            <div class="feature-card">
+                <h3>Duitse Kwaliteit</h3>
+                <p>Authentiek design volgens Duitse brouwerijtraditie</p>
+            </div>
+        </div>
+
+        <h2>Onze Collectie</h2>
+        <div class="products-grid">
+            <div class="product-card">
+                <img src="https://www.e-woodproducts.be/cdn/shop/files/biertafelset-160-70-1_472x472.jpg?v=1713360144" alt="Biertafelset 160x70">
+                <div class="product-content">
+                    <h3 class="product-title">Biertafelset 160x70</h3>
+                    <p class="product-description">Complete set met tafel en twee banken, perfect voor kleinere ruimtes</p>
+                    <a href="https://www.e-woodproducts.be/collections/biertafels" class="cta-button">Bekijk Product</a>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://www.e-woodproducts.be/cdn/shop/files/biertafelset-220x60-1000-1-_1_3eb1b853-3c01-404c-96e8-1f6c77b3a755_472x354.jpg?v=1736413058" alt="Biertafelset 220x60">
+                <div class="product-content">
+                    <h3 class="product-title">Biertafelset 220x60</h3>
+                    <p class="product-description">Lange set voor grotere gezelschappen, smal profiel voor optimaal ruimtegebruik</p>
+                    <a href="https://www.e-woodproducts.be/collections/biertafels" class="cta-button">Bekijk Product</a>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://www.e-woodproducts.be/cdn/shop/files/biertafelset220-70_472x472.png?v=1727338939" alt="Biertafelset 220x70">
+                <div class="product-content">
+                    <h3 class="product-title">Biertafelset 220x70</h3>
+                    <p class="product-description">Extra brede uitvoering voor meer comfort en stabiliteit</p>
+                    <a href="https://www.e-woodproducts.be/collections/biertafels" class="cta-button">Bekijk Product</a>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://www.e-woodproducts.be/cdn/shop/files/biertafelset220-80-1_472x472.png?v=1727339145" alt="Biertafelset 220x80">
+                <div class="product-content">
+                    <h3 class="product-title">Biertafelset 220x80</h3>
+                    <p class="product-description">Luxe uitvoering met maximaal comfort en ruimte</p>
+                    <a href="https://www.e-woodproducts.be/collections/biertafels" class="cta-button">Bekijk Product</a>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://www.e-woodproducts.be/cdn/shop/files/biertafel-160-2_472x472.jpg?v=1713360481" alt="Biertafel 160">
+                <div class="product-content">
+                    <h3 class="product-title">Biertafel 160</h3>
+                    <p class="product-description">Losse tafel voor flexibele opstelling</p>
+                    <a href="https://www.e-woodproducts.be/collections/biertafels" class="cta-button">Bekijk Product</a>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://www.e-woodproducts.be/cdn/shop/files/biertafel-200x60-1000-3-wxh-_2_d89abc00-86fb-4c1d-957c-f158667a651c_472x354.jpg?v=1706789391" alt="Biertafel 200x60">
+                <div class="product-content">
+                    <h3 class="product-title">Biertafel 200x60</h3>
+                    <p class="product-description">Ruime tafel met compact profiel</p>
+                    <a href="https://www.e-woodproducts.be/collections/biertafels" class="cta-button">Bekijk Product</a>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://www.e-woodproducts.be/cdn/shop/files/biertafel220-70-1_472x472.jpg?v=1707379116" alt="Biertafel 220x70">
+                <div class="product-content">
+                    <h3 class="product-title">Biertafel 220x70</h3>
+                    <p class="product-description">Extra lange tafel met comfortabele breedte</p>
+                    <a href="https://www.e-woodproducts.be/collections/biertafels" class="cta-button">Bekijk Product</a>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://www.e-woodproducts.be/cdn/shop/files/biertafel220-80-4_472x472.jpg?v=1713359606" alt="Biertafel 220x80">
+                <div class="product-content">
+                    <h3 class="product-title">Biertafel 220x80</h3>
+                    <p class="product-description">Royale tafel voor maximaal comfort</p>
+                    <a href="https://www.e-woodproducts.be/collections/biertafels" class="cta-button">Bekijk Product</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="company-info">
+            <h3>BV E-Products Europe</h3>
+            <p>Patijntjestraat 107<br>9000 Gent</p>
+            <p>BTW: BE 0500.621.156</p>
+            <p>E-mail: support@e-woodproducts.com</p>
+            <p>Bankgegevens:<br>
+            BIC: GEBA BE BB<br>
+            IBAN: BE 61 0016 8384 4117</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 BV E-Products Europe. Alle rechten voorbehouden.</p>
+    </footer>
+</body>
+</html>
